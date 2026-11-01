@@ -19,9 +19,9 @@ body::before {
     background-image: url("images/designer.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 40%;
+    background-size: 90%;
 
-    opacity: 0.08;
+    opacity: 0.18;
 
     z-index: -1;
 }
@@ -47,9 +47,10 @@ nav a {
 }
 
 .hero {
-    background: white;
+    background: rgba(255, 255, 255, 0.356);
     padding: 50px;
     text-align: center;
+    border-radius: 8px;
 }
 
 section {
@@ -59,11 +60,12 @@ section {
 }
 
 .card {
-    background: white;
+    background: rgba(255, 255, 255, 0.356);
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
 }
 
 footer {
@@ -72,4 +74,8 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    left: 0%;
 }
