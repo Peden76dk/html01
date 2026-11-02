@@ -45,11 +45,12 @@
             padding: 8px;
             text-align: center;
         }
-        th {
-            background-color: #f2f2f293; /* Lys grå */
-        }
-        td {
-            background-color: #eeeeee93;  /* En anelse mørkere */
+        tr:nth-child(odd) td {
+            background-color: #f2f2f293;
+        }    
+
+        tr:nth-child(even) td {
+            background-color: #eeeeee93;
         }
     </style>
 </head>
@@ -59,24 +60,24 @@
 
 <table>
     <tr>
-        <th>Mandag</th>
-        <th>08:00 - 16:00</th>
+        <td>Mandag</td>
+        <td></td>08:00 - 16:00</td>
     </tr>
     <tr>
         <td>Tirsdag</td>
         <td>08:00 - 16:00</td>
     </tr>
     <tr>
-        <th>Onsdag</th>
-        <th>08:00 - 16:00</th>
+        <td>Onsdag</td>
+        <td>08:00 - 16:00</td>
     </tr>
     <tr>
         <td>Torsdag</td>
         <td>08:00 - 16:00</td>
     </tr>
     <tr>
-        <th>Fredag</th>
-        <th>08:00 - 16:00</th>
+        <td>Fredag</td>
+        <td>08:00 - 16:00</td>
     </tr>
 </table>
 </section>
